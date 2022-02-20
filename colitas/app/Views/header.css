@@ -1,0 +1,45 @@
+.header{
+    background-color: aquamarine;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+.contenedor-home{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    border: 1px solid black;
+    width: 250px;
+    padding: 0 10px;
+    margin: 10px;
+}
+.card img{
+    height: 250px;
+}
+.card .opcion{
+    font-weight: bold;
+    font-size: 18px;
+}
+.card .boton-buscar{
+    background-color: #1289f8;
+    color: white;
+    border-radius: 5    px;
+}
+.footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo, img{
+    padding: 10px;
+}

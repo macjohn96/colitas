@@ -2,7 +2,7 @@
 use CodeIgniter\Controller;
 
 class Pages extends Controller{
-
+    
     public function index(){
         return view('welcome_message');
     }
@@ -13,7 +13,6 @@ class Pages extends Controller{
         }
 
         $data['title'] = ucfirst($page);
-
         echo view('header', $data);
         echo view('/'.$page, $data);
         echo view('footer', $data);
